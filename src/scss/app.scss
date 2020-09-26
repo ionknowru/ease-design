@@ -14,9 +14,59 @@ body {
     background-color: $main-color;
 }
 
-.wrapper {
+.container {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
 }
+
+.content {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .description {
+        padding-top: 80px;
+
+        &__text {
+            font-size: 24px;
+            color: #000;
+        }
+    }
+
+    .lamp-preview {
+        img {
+            border-radius: 20px;
+        }
+    }
+
+    .lamp-info {
+        border-top: 1px solid #C4C4C4;
+        margin-top: 80px;
+        padding-top: 50px;
+
+        &__block {
+            width: 450px;
+            height: 450px;
+            background-color: #E4D7B9;
+            border-radius: 100%;
+            padding: 130px 0;
+
+            &__text {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 25px;
+
+                span {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+
+}
+
+
 
