@@ -1,0 +1,22 @@
+@import 'fonts';
+@import 'variables';
+
+@import '../components/Header/Header.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'SF Compact Display', sans-serif;
+    background-color: $main-color;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+

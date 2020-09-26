@@ -1,0 +1,26 @@
+.header {
+    &__inner {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.nav {
+    font-size: 21px;
+    text-transform: uppercase;
+    &__link {
+        padding: 0 30px;
+        color: $text-color;
+        text-decoration: none;
+
+        &:last-child {
+            padding-right: 0;
+        }
+
+        &:hover {
+            opacity: .5;
+        }
+    }
+}
